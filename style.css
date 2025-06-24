@@ -1,0 +1,423 @@
+body {
+    margin: 0px;
+    padding: 0%;
+}
+
+:root {
+    --primary: rgb(104, 103, 103);
+    --second:#0085a1
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    background-color: white;
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.overview {
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-top: 3px;
+    float: left;
+}
+
+.overview a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--primary)
+}
+
+.overview:hover {
+    height: 20px;
+    border: 0.5px solid rgb(108, 105, 105);
+    background-color: gainsboro;
+    border-radius: 15px;
+
+}
+
+.icons {
+    height: 40px;
+    width: 30%;
+    float: left;
+    margin-left: 315px;
+}
+
+.icons i {
+    height: 30px;
+    width: 40px;
+    color: var(--primary);
+    margin-top: 9px;
+    margin-left: 38px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.icons i:hover {
+
+    border: 0.2 solid var(--primary);
+    border-radius: 100px;
+    background-color: gainsboro
+}
+
+.git {
+    height: 40px;
+    width: 30%;
+    float: right;
+}
+
+.git i {
+    height: 30px;
+    width: 40px;
+    color: var(--primary);
+    margin-top: 9px;
+    margin-left: 265px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.git i:hover {
+    border: 0 solid var(--primary);
+    border-radius: 100px;
+    background-color: gainsboro
+}
+.main{
+    height: 500px;
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+      filter:brightness(0.9) ;
+}
+.navbar{
+    height: 75px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+
+.left{
+    height: 70px;
+    width: 40%;
+    float: left;
+}
+.left h3:hover{
+    color: var(--primary);
+}
+.left h3{
+    font-size: 30px;
+     margin-left: 56px;
+    font-weight: 800;
+     color: #ffff;
+    font-weight: 900;
+    text-shadow: aliceblue;
+    text-shadow: 1px 1px 5px white;
+}
+
+.right{
+    height: 70px;
+    width: 40%;
+    float: right;
+    margin-top: 25px;
+}
+.right a{
+    margin-left: 48px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffff;
+    font-weight: 900;
+    text-shadow: aliceblue;
+    text-shadow: 1px 1px 5px white;
+}
+.right a:hover{
+   color: var(--primary);
+}
+.section_first
+{
+    text-align: center;
+    margin-top: 150px;
+    color: black;
+    font-size: 60px;
+    color: #ffff;
+    font-weight: 900;
+    text-shadow: aliceblue;
+    text-shadow: 2px 2px 7px white;
+}
+.section_first h1{
+    font-size: 60px;
+}
+.section_first p{
+    font-size: 20px;
+    margin-top: -29px;
+}
+.container{
+     width: 100%;
+    }
+.row{
+   margin-left: 265px;
+}
+.row h1 {
+   margin-bottom: 11px;
+    font-size: 44px;
+    cursor: pointer;
+}
+.row p{
+    cursor: auto;
+    margin-top: 8px;
+    color: var(--primary);
+}
+.row span{
+    cursor: pointer;
+    font-size: 28px;
+}
+.row h1:hover{
+     color: var(--second);
+}
+.row span:hover{
+     color: var(--second);
+}
+
+.row hr{
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: -5px;
+}
+.row button{
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: "Open Sans";
+    background-color: var(--second);
+    color: #fff;
+    border: 0px;
+    margin-bottom: 30px;
+    margin-left: 54%;
+}
+.container hr{
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+footer{
+    width: 100%;
+   text-align: center;
+}
+.footer_icons i{
+   font-size: 25px;
+    background-color: #212529;
+    color: white;
+    width: 52px;
+    height: 40px;
+    padding-top: 14px;
+    border-radius: 60%;
+   margin-left: 25px;
+   margin-bottom: 20px;
+
+}
+.footer_icons i:hover{
+    background-color:  var(--second);;
+}
+.copyrights{
+   color: var(--primary);
+   margin-bottom: 30px;
+}
+
+/* about page */
+.about_p{
+    font-size: 22px;
+   
+}
+/* contact page */s
+.contact_s h1{
+    color: black;
+}
+.contact_s p{
+    color: black;
+}
+.contact_s a{
+    color: black;
+}
+.contact_s h3{
+    color: black;
+}
+.row input{
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    margin-top: 65px;
+   }
+   .row textarea{
+    font-size: 2em;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    margin-top: 65px;
+   }
+
+
+
+
+
+
+   /*
+   1. Small Devices (Mobile)
+   */
+@media (max-width: 650px) {
+  .overview, .icons, .git {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  .icons i, .git i {
+   display: none;
+  }
+
+  .left{
+    float: left;
+    width: 100%;
+    margin-left: -51px;
+  }
+  .right{
+    float: right;
+    margin-top: -55px;
+  }
+
+  .right a:hover{
+   color: var(--primary);
+}
+
+  .section_first h1 {
+    font-size: 36px;
+  }
+
+  .section_first p {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .row {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .row h1 {
+    font-size: 22px;
+  }
+
+  .row span {
+    font-size: 14px;
+  }
+
+  .row button {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* 
+   2. Medium Devices (Default view)
+   min-width: 651px
+  */
+@media (min-width: 651px) {
+  .icons {
+   display: none;
+  }
+
+
+  .left h3 {
+    font-size: 26px;
+    margin-left: 40px;
+  }
+
+  .right a {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+
+  .row {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .row h1 {
+    font-size: 32px;
+  }
+
+  .row span {
+    font-size: 18px;
+  }
+
+  .row button {
+    margin-left: 35%;
+  }
+}
+
+/*
+   3. Large Devices (Desktops)
+   min-width: 950px
+   */
+@media (min-width: 950px) {
+  .icons {
+    display: none;
+  }
+
+  
+
+  .left h3 {
+    font-size: 30px;
+    margin-left: 56px;
+  }
+
+  .right a {
+    font-size: 15px;
+    margin-left: 48px;
+  }
+
+  .row {
+    margin-left: 265px;
+    margin-right: 265px;
+  }
+
+  .row h1 {
+    font-size: 44px;
+  }
+
+  .row span {
+    font-size: 28px;
+  }
+
+  .row button {
+    margin-left: 54%;
+  }
+}
+
+   
